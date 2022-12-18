@@ -1,0 +1,119 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(255, 238, 0);
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.logo img {
+    height: 60px;
+    padding-right: 20px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.primerapagina {
+    background-image: url('https://www.cest.org/wp-content/uploads/2018/08/la-vieja-a.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.descubre {
+    padding-top: 10%;
+    display: block;
+    font-size: 40px;
+    color: rgba(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.restaurante {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-fill-color: rgb(251, 255, 0);
+    -webkit-text-stroke: 3px black;
+    font-family: Tahoma;
+}
+
+.open {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+    font-family: Tahoma;
+}
+
+
+.secondpage {
+    background-image: url('https://pescadoacasa.com/wp-content/uploads/2021/10/congelar-mariscos.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.concept{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.container{ 
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    font-size: larger;
+    width: 600px;
+    height: 300px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 120px;
+    flex-direction: column;
+    margin-top: 190px;
+}
+.thirdpage {
+    background-image: url('https://www.crianzadenuestrosmares.com/wp-content/uploads/2022/07/pescado-blanco.jpg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
